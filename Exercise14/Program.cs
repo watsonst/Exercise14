@@ -19,7 +19,7 @@ namespace Exercise14
                     Console.Write($"{sqr} ");
                 }
 
-                Console.Write("\nWould you like to continue? y/n");
+                Console.Write("\nWould you like to continue? y/n: ");
                 answer = Console.ReadLine();
                 if (answer == "n")
                 {
